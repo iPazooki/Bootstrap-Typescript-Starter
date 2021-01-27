@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta1",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "requirejs": "^2.3.6"
+  },
+  "name": "bbp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run watch-sass\" \"npm run watch-tsc\"",
+    "watch-sass": "sass --watch app/styles/app.scss:app/styles/css/app.css",
+    "watch-tsc": "tsc --build app/tsconfig.json -w"
+  },
+  "author": "MRP",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "sass": "^1.32.5",
+    "typescript": "^4.1.3"
+  }
+}

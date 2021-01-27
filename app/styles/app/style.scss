@@ -1,0 +1,9 @@
+.app {
+  // Styles for specific page
+  @import "home-page";
+
+  // General styles
+  p {
+    color: $text-gray;
+  }
+}

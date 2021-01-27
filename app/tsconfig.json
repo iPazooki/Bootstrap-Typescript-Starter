@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "app/*": [ "app/scripts/*" ]
+    },
+    "outDir":"scripts/js/",
+    "module": "amd",
+    "target": "es6",
+    "sourceMap": true,
+    "noImplicitUseStrict": true,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false
+  },
+  "compileOnSave": true,
+  "exclude": [  ]
+}
